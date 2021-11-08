@@ -93,3 +93,37 @@ function inputMessages(login){
 }
 
 inputMessages('');
+
+
+
+
+// Напишите функцию ucFirst(str), возвращающую строку str с заглавным первым символом. Например:
+// ucFirst('вася') == 'Вася';
+// function firstLetter(str){
+//     if(!str) return str;
+//     return str[0].toUpperCase() + str.slice(1);
+// }
+// console.log(firstLetter('вася')); // Вася
+
+
+// Напишите функцию checkSpam(str), возвращающую true, если str содержит 'viagra' или 'XXX', а иначе false.
+// Функция должна быть нечувствительна к регистру:
+
+// function checkSpam(str){
+//   let lowerStr = str.toLowerCase();
+//   return lowerStr.includes('viagra') || lowerStr.includes('xxx');
+// }
+// alert( checkSpam("innocent rabbit") );
+
+
+
+
+
+// Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и, если она превосходит maxlength, заменяет конец str на "…", так, чтобы её длина стала равна maxlength.
+// Результатом функции должна быть та же строка, если усечение не требуется, либо, если необходимо, усечённая строка.
+
+// function truncate(str, maxlength) {
+//   return (str.length > maxlength) ?
+//     str.slice(0, maxlength - 1) + '…' : str;
+// }
+// alert(truncate('двадцатый смивол тут!',20)) // двадцатый смивол ту...
